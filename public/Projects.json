@@ -1,0 +1,52 @@
+[
+  {
+    "github": "https://github.com/emilianscheel/bibliothek-schule",
+    "title": "Bibliothek Schule",
+    "image_src": "bibliothek-schule.png",
+    "priority": 10,
+    "description": "Eine Bibliotheksverwaltungssoftware für das Immanuel-Kant-Gymnasium Berlin."
+  },
+  {
+    "link": "https://dia-mat.de",
+    "title": "Dia-Mat",
+    "image_src": "dia-mat.png",
+    "priority": 9,
+    "description": "Der Dia-Mat ist ein Online-Wörterbuch mit Begriffen rund um den dialektischen Materialismus. Basis für die Definitionen ist u. a. das Buch „Fremdwörter- und Begriffserklärung“ vom Revolutionären Weg."
+  },
+  {
+    "github": "https://github.com/emilianscheel/tagesschau-data-fetching",
+    "title": "Tagesschau.de Datenerfassung",
+    "image_src": "Tagesschau-data-fetching.png",
+    "priority": 11,
+    "description": "Vorratsdatenspeichert alle Tagesschau Artikel mithilfe der Tagesschau-Api. Die Daten sollen später ausgewertet werden."
+  },
+  {
+    "github": "https://github.com/emilianscheel/tagesschau-realtime-analysis-tool",
+    "title": "Tagesschau.de Realtime Analysis Tool",
+    "image_src": "Tagesschau-realtime-analysis-tool.png",
+    "link": "tagesschau-realtime.dockyar.de",
+    "priority": 10,
+    "description": "This is a tool build with python and flask to retrieve database.json used by the Tagesschau-data-fetching project."
+  },
+  {
+    "title": "Listview App",
+    "image_src": "listview.png",
+    "priority": 4,
+    "link": "https://play.google.com/store/apps/details?id:de.pocket.listview",
+    "description": "Die App Listview bietet eine moderne Art Listen für Einkäufe, To-Dos oder Sachen die du einpacken möchtest zu erstellen, verwalten, teilen oder löschen."
+  },
+  {
+    "title": "Bestrush App",
+    "image_src": "bestrush.png",
+    "priority": 5,
+    "link": "https://play.google.com/store/apps/details?id:de.best.rotaterush",
+    "description": "In diesem Spiel musst du versuchen, durch rotieren des Vierecks die richtige Farbe nach unten zu drehen. Ein Ball, welcher von unten in gleichen Abständen nach oben fliegt sollte diese Farbe haben."
+  },
+  {
+    "title": "Listview Redesign App",
+    "image_src": "listview redesign.png",
+    "priority": 6,
+    "link": "https://play.google.com/store/apps/details?id=de.emilianscheel.listview",
+    "description": "Listview ist eine App zum Erstellen von Listen von Einkaufslisten, Todolisten bis Packlisten."
+  }
+]
