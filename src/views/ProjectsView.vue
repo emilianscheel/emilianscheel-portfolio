@@ -14,12 +14,14 @@ type Project = {
 export default {
     data() {
         return {
-            ProjectsData: null
+            ProjectsData: null,
+            VUE_APP_BASE_URL: import.meta.env.VUE_APP_BASE_URL
         }
     },
     mounted() {
+        console.log(this.VUE_APP_BASE_URL)
         axios
-            .get('http://localhost:2173/Projects.json')
+            .get('https://dockyar.de/Projects.json')
             .then(response => {
                 this.ProjectsData = response.data.sort((el1: Project, el2: Project) => el1.priority < el2.priority ? 1 : -1);
             })

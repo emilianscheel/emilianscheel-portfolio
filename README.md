@@ -10,24 +10,25 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Development
 
 ```sh
+# Compile and Hot-Reload for Development
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+# Type-Check, Compile and Minify for Production
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Production
 
 ```sh
-npm run lint
-```
+# Build docker container from Vue.JS project
+docker build -t emilianscheel/emilianscheel-portfolio:latest .
 
-```sh
-http-server dist -p 2173
+# Run docker container
+docker run -d \
+    --restart=always \
+    --name emilianscheel-portfolio \
+    -p 2173:2173 emilianscheel/emilianscheel-portfolio:latest
 ```
