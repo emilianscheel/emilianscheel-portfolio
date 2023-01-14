@@ -2,7 +2,7 @@
     <div class="container">
         <h1>Datenschutz</h1>
         <p class="breadcrumb">
-            Startseite / Datenschutz
+            <a href="/">Startseite</a> / <a class="refresh" href="#">Kontakt</a>
         </p>
         <pre>
             1) Name und Kontaktdaten des für die Verarbeitung Verantwortliche

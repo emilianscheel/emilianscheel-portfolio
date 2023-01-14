@@ -33,8 +33,8 @@ export default {
         <h2>{{ title }}</h2>
         <p>{{ description }}</p>
         <div class="card-buttons">
-            <ButtonView v-if="github" label="Auf GitHub ansehen" :href="github" />
-            <ButtonView v-if="link" label="Öffnen" :href="link" />
+            <ButtonView v-if="github" label="Auf GitHub ansehen" :href="github" target="_blank" />
+            <ButtonView v-if="link" label="Öffnen" :href="link" target="_blank" />
         </div>
     </div>
 </template>

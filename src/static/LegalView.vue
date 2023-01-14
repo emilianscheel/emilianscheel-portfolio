@@ -2,7 +2,7 @@
     <div class="container">
         <h1>Impressum</h1>
         <p class="breadcrumb">
-            Startseite / Impressum
+            <a href="/">Startseite</a> / <a class="refresh" href="#">Kontakt</a>
         </p>
         <pre class="block-text">
             Verantwortlich für den Inhalt dieser Seiten:
